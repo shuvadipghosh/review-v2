@@ -368,14 +368,16 @@ z-index: -1;
 }
 
 #content .text-areas input:focus + .text-review .contents,
-.text-areas input:valid + .text-review .contents
+#content .text-areas input:valid + .text-review .contents
 {
 	transform: translateY(-150%);
 	font-size: 14px;
 	color: blue;
 }
 
-#content .text-areas input:focus + .text-review::after{
+#content .text-areas input:focus + .text-review::after,
+
+#content .text-areas input:valid + .text-review::after{
 	transform: translateX(0%);
 
 }
