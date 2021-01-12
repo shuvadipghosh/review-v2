@@ -367,7 +367,7 @@ z-index: -1;
 	transition: all 0.3s ease;
 }
 
-#content.text-areas input:focus + .text-review .contents,
+#content .text-areas input:focus + .text-review .contents,
 .text-areas input:valid + .text-review .contents
 {
 	transform: translateY(-150%);
